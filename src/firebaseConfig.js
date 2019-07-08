@@ -19,6 +19,8 @@ const db = firebase.firestore()
 const auth = firebase.auth()
 const storage = firebase.storage()
 
+db.enablePersistence()
+
 export {
     db,
     auth,
